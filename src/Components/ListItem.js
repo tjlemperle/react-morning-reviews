@@ -10,6 +10,9 @@ function ListItem(props) {
         <p>{movie.title}</p>
         <p>{movie.year}</p>
       </div>
+      <p onClick={() => props.deleteMovie(movie.id)} className="delete-button">
+        X
+      </p>
     </div>
   )
 }

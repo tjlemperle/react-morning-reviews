@@ -19,8 +19,16 @@
   color: white;
   font-size: 2rem;
   padding: 10px 0;
+  position: relative;
 }
 
 .movie-poster {
   width: 100px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
 }
